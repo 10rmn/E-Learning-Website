@@ -1,92 +1,110 @@
-This project is originally based on an open-source frontend template created by keerti1924, built using HTML, CSS, Bootstrap, and JavaScript.
+# E-Learning Platform
+
+This project is originally based on an open-source frontend template created by [keerti1924](https://github.com/keerti1924), built using HTML, CSS, Bootstrap, and JavaScript.  
 I have customized the frontend and added my own backend system using Node.js, Express, and MongoDB.
 
-⭐ Overview
+---
+
+## ⭐ Overview
 
 This is a responsive E-Learning platform where users can:
 
-Browse available courses
+- Browse available courses  
+- Register and log in  
+- Access learning pages  
+- Navigate through a clean, modern UI  
 
-Register and log in
+The frontend layout is taken from the open-source template, but I made several design changes and added a complete backend to make it fully functional.
 
-Access learning pages
+---
 
-Navigate through a clean, modern UI
+## 🔧 Tech Stack
 
-The frontend layout is taken from the open-source template, but I made several design changes and added a complete backend to make it functional.
+### Frontend
+- HTML5  
+- CSS3 / Bootstrap 5  
+- JavaScript  
 
-🔧 Tech Stack
-Frontend
+### Backend (My Implementation)
+- Node.js  
+- Express.js  
+- MongoDB (Mongoose)  
+- REST API for authentication and user data  
 
-HTML5
+**Backend Features Implemented:**
+- User registration and login  
+- Password hashing for security  
+- MongoDB database connection  
+- API routes for authentication  
+- Error handling and validation  
 
-CSS3 / Bootstrap 5
+---
 
-JavaScript
+## 📌 What I Customized
 
-Backend (My Implementation)
+### Frontend
+- Updated UI elements (colors, images, icons, fonts)  
+- Modified text content and layout  
+- Removed unused sections  
+- Improved responsiveness and styling  
 
-Node.js
+### Backend
+- Complete authentication system  
+- Integrated frontend forms with backend APIs  
+- Connected to MongoDB Atlas or local database  
+- Added error handling and input validation  
 
-Express.js
+---
 
-MongoDB (Mongoose)
-
-REST API for authentication and user data
-
-I built the backend fully myself, including:
-
-User registration
-
-User login
-
-Password hashing
-
-MongoDB database connection
-
-API routes for authentication
-
-📌 What I Customized
-Frontend
-
-Updated UI elements (colors, images, icons, fonts)
-
-Modified text content and layout
-
-Removed unused sections
-
-Improved responsiveness and styling
-
-Backend
-
-Added a complete authentication system
-
-Integrated forms with backend APIs
-
-Connected to MongoDB Atlas/local database
-
-Added error handling and validation
-
-📁 Folder Structure
-E-Learning-Website
+## 📁 Folder Structure
+E-Learning-Website/
 │
 ├── frontend/
 │   ├── index.html
 │   ├── login.html
 │   ├── register.html
 │   ├── css/
+│   │   ├── style.css
+│   │   └── bootstrap.min.css
 │   ├── js/
-│   ├── images/
+│   │   ├── main.js
+│   │   └── script.js
+│   └── images/
+│       ├── logo.png
+│       └── banner.jpg
 │
 └── backend/
     ├── server.js
+    ├── .env
     ├── routes/
-    ├── controllers/
+    │   ├── auth.js
+    │   ├── course.js
+    │   └── progress.js
     ├── models/
-    ├── config/
+    │   ├── User.js
+    │   ├── Course.js
+    │   └── Progress.js
+    └── utils/
+        ├── db.js
+        ├── helpers.js
+        └── seed.js
 
-📝 Credits
 
-Original UI Template: keerti1924 (GitHub)
+---
 
-Backend Development & Customization: 10rmn
+## ⚡ Features
+
+- User authentication (Sign Up / Login / Logout)  
+- Secure password storage with hashing  
+- Integration with MongoDB for user data storage  
+- Responsive design for desktop and mobile  
+- Modern UI with customized colors, icons, and fonts  
+
+---
+
+## 🛠 Installation and Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/E-Learning-Website.git
+cd E-Learning-Website
