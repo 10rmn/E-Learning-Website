@@ -104,7 +104,45 @@ E-Learning-Website/
 
 ## 🛠 Installation and Setup
 
-### 1. Clone the repository
+# 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/E-Learning-Website.git
 cd E-Learning-Website
+```
+
+# 2. Setup Backend
+```bash
+cd backend
+npm install
+```
+
+# 3. Create a .env file in the backend folder with the following content
+# (replace values with your own)
+```bash
+echo "PORT=5000" >> .env
+echo "MONGO_URI=your_mongodb_connection_string" >> .env
+echo "JWT_SECRET=your_jwt_secret_key" >> .env
+```
+# 4. Start the backend server
+```bash
+node server.js
+```
+# Backend will run at http://localhost:5000
+
+# 5. Setup Frontend
+```bash
+cd ../frontend
+```
+## 🔗 Usage
+
+1. Open the frontend in a browser.
+2. Register a new account or login if you already have one.
+3. Browse available courses and navigate learning pages.
+4. Logout when done.
+
+## 📝 Credits
+
+- **Original UI Template:** [keerti1924](https://github.com/keerti1924)  
+- **Backend Development & Customization:** 10rmn
+
+# Open index.html in browser or use Live Server in VS Code
