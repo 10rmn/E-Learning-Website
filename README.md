@@ -1,2 +1,19 @@
-# E-Learning-Website
-This is a responsive E-Learning platform(Eduverse) originally based on an open-source frontend template by keerti1924. I have customized the frontend (UI, colors, fonts, layout, responsiveness) and implemented a complete backend using Node.js, Express, and MongoDB compass, including user registration, login, password hashing, API routes, database integration, error handling, and validation, providing a fully functional and interactive learning experience.
+# E-Learning Website
+
+This is a responsive E-Learning platform originally based on an open-source frontend template by keerti1924. 
+
+## Features
+- Browse available courses
+- User registration and login
+- Secure authentication with password hashing
+- Access learning pages
+- Responsive and modern UI
+
+## Tech Stack
+**Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript  
+**Backend:** Node.js, Express.js, MongoDB  
+
+## Customizations
+- Updated UI elements (colors, fonts, icons)
+- Integrated frontend with backend APIs
+- Error handling and validation
